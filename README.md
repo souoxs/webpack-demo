@@ -1,25 +1,21 @@
 # webpack-demo
 
-此部分对应起步部分（使用一个配置文件）
+此部分对应起步部分（NPM 脚本(NPM Scripts）
 
-我们新建了一个webpack.config.js文件，用来配置webpack打包及产出方式
+我们修改了package.json文件，配置了一个npm script来运行webpack
 
-index.html 修改main.js(打包后) => bundle.js(打包后)
-
-最后，使用npx webpack --config webpack.config.js生成bundle.js
-
-> npx 会自动查找当前依赖包中的可执行文件，如果找不到，就会去 PATH 里找。如果依然找不到，就会帮你安装！
+这样，我们就可以使用命令npm run build生成bundle.js
 
 > 打开index.html，我们可以看到Hello webpack
 
 ## 
 
-我们先来看下一个TAG(V1.3)
+我们先来看下一个TAG(V1.4)
 
 在命令行 / 终端输入以下命令
 
 ```bash
-git checkout v1.3
+git checkout v1.4
 ```
 
 
