@@ -10,12 +10,14 @@
 
 ## 
 
-我们先来看下一个TAG(V1.4)
+接下来，我们会进入一个新的章节（使用webpack管理资源）
+
+我们先来看下一个TAG(V2.0)
 
 在命令行 / 终端输入以下命令
 
 ```bash
-git checkout v1.4
+git checkout v2.0
 ```
 
 
