@@ -2,7 +2,7 @@
 
 此部分对应开发部分（使用观察模式）
 
-我们修改package.json文件，配置了webpack --wathch来替代每次手动的npm run build
+我们修改package.json文件，配置了webpack --watch来替代每次手动的npm run build
 
 修改文件print.js，查看效果
 
