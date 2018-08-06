@@ -1,12 +1,10 @@
 # webpack-demo
 
-此部分对应开发部分（使用 source map）
+此部分对应开发部分（使用观察模式）
 
-我们修改了print.js文件，使其报错
+我们修改package.json文件，配置了webpack --wathch来替代每次手动的npm run build
 
-我们修改webpack.config.js文件，配置了inline-source-map用来导出错误
-
-最后，运行npm run build 命令，查看效果
+修改文件print.js，查看效果
 
 > 打开index.html，我们可以看到Hello webpack和一个按钮
 
@@ -14,12 +12,12 @@
 
 ##
 
-我们先来看下一个TAG(V4.2)
+我们先来看下一个TAG(V4.3)
 
 在命令行 / 终端输入以下命令
 
 ```bash
-git checkout v4.2
+git checkout v4.3
 ```
 
 
