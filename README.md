@@ -1,14 +1,10 @@
 # webpack-demo
 
-此部分对应管理输出部分（预先准备）
+此部分对应管理输出部分（设定HtmlWebpackPlugin）
 
-我们清理了上一章节使用的数据（图片、字体、xml文件等）
+我们使用npm安装了HtmlWebpackPlugin插件依赖
 
-我们新建了print.js文件，并在里面打印了一句话
-
-我们修改了index.js文件，引入print.js并绑定事件
-
-我们修改webpack.config.js文件，配置了多个入口，修改了index.html文件，配置引用bundle
+我们修改webpack.config.js文件，配置了HtmlWebpackPlugin插件
 
 最后，运行npm run build 命令，查看效果
 
@@ -18,12 +14,12 @@
 
 ##
 
-我们先来看下一个TAG(V3.2)
+我们先来看下一个TAG(V3.3)
 
 在命令行 / 终端输入以下命令
 
 ```bash
-git checkout v3.2
+git checkout v3.3
 ```
 
 
