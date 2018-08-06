@@ -1,10 +1,12 @@
 # webpack-demo
 
-此部分对应管理输出部分（设定HtmlWebpackPlugin）
+此部分对应管理输出部分（清理 /dist 文件夹）
 
-我们使用npm安装了HtmlWebpackPlugin插件依赖
+我们使用npm安装了clean-webpack-plugin插件依赖，使用这个插件我们可以清空dist目录里面原来的内容
 
-我们修改webpack.config.js文件，配置了HtmlWebpackPlugin插件
+> 非常好用、非常有用的一个插件
+
+我们修改webpack.config.js文件，配置了clean-webpack-plugin插件
 
 最后，运行npm run build 命令，查看效果
 
@@ -14,12 +16,12 @@
 
 ##
 
-我们先来看下一个TAG(V3.3)
+我们先来看下一个TAG(V4.1)
 
 在命令行 / 终端输入以下命令
 
 ```bash
-git checkout v3.3
+git checkout v4.1
 ```
 
 
