@@ -10,8 +10,10 @@
   },
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "csv-loader": "^3.0.2",
     "file-loader": "^1.1.11",
-    "style-loader": "^0.21.0"
+    "style-loader": "^0.21.0",
+    "xml-loader": "^1.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
